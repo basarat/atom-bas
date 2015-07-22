@@ -1,15 +1,13 @@
 {
   "name": "bas",
   "main": "./lib/bas",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Some customizations for BAS",
-  "keywords": [
-  ],
+  "keywords": [],
   "repository": "https://github.com/basarat/atom-bas",
   "license": "MIT",
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
   },
-  "dependencies": {
-  }
+  "dependencies": {}
 }
