@@ -1,4 +1,3 @@
-BasView = require './bas-view'
 {CompositeDisposable} = require 'atom'
 
 module.exports = Bas =
