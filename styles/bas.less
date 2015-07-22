@@ -16,17 +16,18 @@ atom-text-editor::shadow .highlight.current-result ~ .highlight.selection .regio
 }
 
 // Style the git gutter
-atom-text-editor::shadow .gutter .line-number.git-line-added {
+// Using `div` to increase specifity
+atom-text-editor::shadow .gutter div.line-number.git-line-added {
     border-left-width: 10px;
     border-left-color: lime;
     padding-left: calc(~"0.5em - 10px");
 }
-atom-text-editor::shadow .gutter .line-number.git-line-modified {
+atom-text-editor::shadow .gutter div.line-number.git-line-modified {
     border-left-width: 10px;
     border-left-color: yellow;
     padding-left: calc(~"0.5em - 10px");
 }
-atom-text-editor::shadow .gutter .line-number.git-line-removed:before {
+atom-text-editor::shadow .gutter div.line-number.git-line-removed:before {
     bottom: -15px;
     margin-top: -15px;
     border-width: 15px;
