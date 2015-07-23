@@ -1,7 +1,7 @@
 {
   "name": "bas",
   "main": "./lib/bas",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Some customizations for BAS",
   "keywords": [],
   "repository": "https://github.com/basarat/atom-bas",
